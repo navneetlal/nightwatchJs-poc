@@ -1,0 +1,17 @@
+{
+  "name": "nightwatcherjs-poc",
+  "version": "1.0.0",
+  "description": "POC of nightwatcherJS",
+  "main": "index.js",
+  "author": "Navneet Lal Gupta",
+  "license": "MIT",
+  "scripts": {
+    "nightwatch": "nightwatch -c tests/nightwatch.conf.js -e chrome,firefox"
+  },
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "geckodriver": "^1.16.2",
+    "nightwatch": "^1.0.19",
+    "selenium-server": "^3.141.59"
+  }
+}
